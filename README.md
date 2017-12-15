@@ -16,13 +16,26 @@ Python Samples
 ```bash
 mkdir ~/projects # or code or whatever.
 cd ~/projects 
+#
+# clone
+#
 git clone git@github.com:TheChuckMo/py_samples.git
+#
+# virtualenv
+#
 cd py_samples
 python3 -m venv py3venv
 source ./py3venv/bin/activate
 # --> (py3venv) <--
+#
+# install additional modules
+#
 pip install -r requirements
+#
 # begin testing
+#
+./get_request.py
+vim get_request.py
 ```
 
 # python virtual environment
