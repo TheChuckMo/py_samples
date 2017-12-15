@@ -1,4 +1,11 @@
 # Byte-compiled / optimized / DLL files
+
+# ignore pycharm project configs
+.idea/
+
+# ignore virtualenv
+py3venv/
+
 __pycache__/
 *.py[cod]
 *$py.class
