@@ -11,7 +11,8 @@ Python Samples
     - Venv will isolate module installs to just the project you're working on
     - Keeps your base install clean, and version locking based on project
   1. Install additional modules from the requirements file 
-    
+
+# Example
 ```bash
 mkdir ~/projects # or code or whatever.
 cd ~/projects 
@@ -20,7 +21,7 @@ cd py_samples
 python3 -m venv py3venv
 source ./py3venv/bin/activate
 # --> (py3venv) <--
-pip install requests
+pip install -r requirements
 # begin testing
 ```
 
